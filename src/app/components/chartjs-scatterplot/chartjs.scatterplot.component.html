@@ -1,0 +1,12 @@
+<div style="height: 100vh; width: 100%">
+    <as-split direction="horizontal">
+        <as-split-area [size]="40" gutterSize="1">
+            Left
+        </as-split-area>
+        <as-split-area [size]="60">
+            <p-menubar [model]="items"></p-menubar>
+            <p-chart #chart type="scatter" [data]="datasets" [options]="options" onHover="onHover($event)"></p-chart>
+
+        </as-split-area>
+    </as-split>
+</div>

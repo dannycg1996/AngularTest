@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScatterplotComponent } from './scatterplot.component';
+import { ScatterplotComponent } from './chartjs.scatterplot.component';
 
 describe('ChartComponentComponent', () => {
   let component: ScatterplotComponent;

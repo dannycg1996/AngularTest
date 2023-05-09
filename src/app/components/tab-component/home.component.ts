@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { MenuItem } from 'primeng/api/menuitem';
 import { ResizedEvent } from 'angular-resize-event';
-import { ScatterplotComponent } from '../chart-component/scatterplot.component';
+import { ScatterplotComponent } from '../chartjs-scatterplot/chartjs.scatterplot.component';
 
 
 @Component({
@@ -19,8 +19,8 @@ export class HomeComponent {
   ngOnInit() {
     this.items = [
       { label: 'chartJS', icon: 'pi pi-fw  pi-home' },
-      { label: 'Calendar', icon: 'pi pi-fw pi-calendar' },
-      { label: 'Edit', icon: 'pi pi-fw pi-pencil' },
+      { label: 'ECharts Scatter', icon: 'pi pi-fw pi-calendar' },
+      { label: 'Plotly Scatter', icon: 'pi pi-fw pi-pencil' },
       { label: 'Documentation', icon: 'pi pi-fw pi-file' },
       { label: 'Settings', icon: 'pi pi-fw pi-cog' }
     ];
